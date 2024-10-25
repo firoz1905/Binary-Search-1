@@ -1,5 +1,6 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
+        
         // Time Complexity : O(log(m*n)) = logm + logn
         // Space Complexity : O(1)
         // Approach : Identify the row where potential target can be found and apply Binary search on the row to check if it exists
